@@ -1,0 +1,40 @@
+nav>div>ul>li>button{
+    margin-right: 40px;
+}
+
+body{
+    margin-top: 125px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 50px;
+}
+a .fa {
+    color: rgb(0, 0, 0);
+    margin: 0 50px;
+    }
+
+.row{
+    margin-top: 2em;
+    margin-bottom: 4em;
+}
+
+#toolskills img{
+    width: 75px;
+    height: 75px;
+    margin: 10px;
+    transition: width 1s, height 1s, transform 1s;
+}
+
+#toolskills img:hover{
+    width: 100px;
+    height: 100px;
+    transform: rotate(360deg)
+
+}
+
+/* img {
+    vertical-align: middle;
+    border-style: none;
+    width: 100%;
+    height: auto;
+    max-width: 828px;
+} */
