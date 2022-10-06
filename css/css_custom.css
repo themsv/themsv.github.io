@@ -1,34 +1,44 @@
-nav>div>ul>li>button{
-    margin-right: 40px;
+nav > div > ul > li > button {
+  margin-right: 40px;
 }
 
-body{
-    margin-top: 125px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-bottom: 50px;
+:root {
+  --textcolor: #000;
+  --backgroundcolor: #fff;
+}
+
+.dark-theme {
+  --textcolor: #fff;
+  --backgroundcolor: rgba(27, 27, 27, 0.8);
+}
+body {
+  margin-top: 125px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 50px;
+  background-color: var(--backgroundcolor);
+  color: var(--textcolor);
 }
 a .fa {
-    color: rgb(0, 0, 0);
-    margin: 0 50px;
-    }
-
-.row{
-    margin-top: 2em;
-    margin-bottom: 4em;
+  color: rgb(0, 0, 0);
+  margin: 0 50px;
 }
 
-#toolskills img{
-    width: 75px;
-    height: 75px;
-    margin: 10px;
-    transition: width 1s, height 1s, transform 1s;
+.row {
+  margin-top: 2em;
+  margin-bottom: 4em;
 }
 
-#toolskills img:hover{
-    width: 100px;
-    height: 100px;
-    transform: rotate(360deg)
+#toolskills img {
+  width: 75px;
+  height: 75px;
+  margin: 10px;
+  transition: width 1s, height 1s, transform 1s;
+}
 
+#toolskills img:hover {
+  width: 100px;
+  height: 100px;
+  transform: rotate(360deg);
 }
 
 /* img {
@@ -38,3 +48,38 @@ a .fa {
     height: auto;
     max-width: 828px;
 } */
+
+.theme {
+  color: white;
+}
+
+.projects-worked {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.each-project {
+  width: 400px;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 6px;
+}
+.each-project img {
+  width: 90%;
+}
+
+.each-project iframe {
+  border-radius: 6px;
+}
+
+.certicate-row {
+  display: flex;
+  flex-wrap: wrap;
+}
